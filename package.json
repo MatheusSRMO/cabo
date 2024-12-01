@@ -1,0 +1,41 @@
+{
+    "name": "cabo-runner",
+    "version": "1.0.0",
+    "description": "Api para compilar e executar códigos de diversas linguagens",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node ./src/index.ts\"",
+        "test": "ts-node index.ts",
+        "build": "tsc",
+        "start": "node ./dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MatheusSRMO/cabo-runner.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MatheusSRMO/cabo-runner/issues"
+    },
+    "homepage": "https://github.com/MatheusSRMO/cabo-runner#readme",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "uuid": "^11.0.3"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.12.2",
+        "@types/uuid": "^10.0.0",
+        "dotenv": "^16.4.5",
+        "fs": "^0.0.1-security",
+        "nodemon": "^3.1.0",
+        "ts-node": "^10.9.2",
+        "types": "^0.1.1",
+        "typescript": "^5.4.3"
+    }
+}
