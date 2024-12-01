@@ -215,7 +215,6 @@ GET http://cabo.run/list
       "extensions": [".js"]
     }
   }
-  // Additional languages...
 ]
 ```
 
